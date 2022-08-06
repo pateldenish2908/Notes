@@ -1,0 +1,48 @@
+•	Check Composer installed or not -
+C:\Users\Deni>composer
+
+•	Create Project - 
+C:\xampp\htdocs>composer create-project --prefer-dist laravel/laravel project_name
+
+•	Run project - 
+C:\xampp\htdocs>php artisan serve
+Browser URL - http://127.0.0.1:8000
+Browser  URL - http://Localhost/mylaravel/public/ 
+
+•	Update version - update laravel 5.8 to 6.0
+Step-1 -  Change laravel version in  composer.json file 
+Step-2 - C:\Users\Deni>composer update
+
+•	Make a Controller
+Note :- Controller First letter is Capital
+
+cmd:-
+	->php artisan make:controller UserController 	
+	->php artisan make:controller InvokableController--invokable
+->php artisan make:controller ResourceController --resource
+			-Get,put,post method
+
+•	Make a Model
+Note:- Database table name and model name is same BUT PLURAL- LIKE MODEAL-USER ‘TABLE-USERS
+Cmd:-
+->php artisan make:model User  // TABLE_NAME SAME AS MODEL_NAME
+
+•	Check DB COnnection
+Cmd:-
+->php artisan tinker
+>>>DB::connection()->getPdo();
+
+•	Make Migrate :-
+php artisan make:migration create_users_table --create=users
+php artisan migrate --force
+php artisan migrate:rollback
+php artisan migrate:rollback --step=5
+php artisan migrate:reset
+-Roll Back & Migrate Using A Single Command
+	php artisan migrate:refresh
+-Drop All Tables & Migrate
+	php artisan migrate:fresh
+
+
+php artisan make:migration add_votes_to_users_table --table=users
+

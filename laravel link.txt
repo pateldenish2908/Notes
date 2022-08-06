@@ -1,0 +1,10 @@
+https://www.itsolutionstuff.com/post/laravel-6-rest-api-with-passport-tutorialexample.html
+
+
+https://www.mynotepaper.com/build-laravel-restful-api-crud-with-authentication-using-passport/
+
+https://www.mynotepaper.com/build-laravel-restful-api-crud-with-authentication-using-passport/
+
+https://www.positronx.io/laravel-rest-api-with-passport-authentication-tutorial/
+
+https://mobiosolutions.com/how-to-create-rest-api-in-laravel-6-using-passport/

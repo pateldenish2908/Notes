@@ -1,0 +1,7 @@
+cd android
+gradlew clean
+cd.. and remove the node_modules folder
+npm cache clean --force
+npm install
+npm start -- --reset-cache
+react-native run-android
