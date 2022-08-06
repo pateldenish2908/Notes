@@ -1,0 +1,39 @@
+node -v
+npm –version
+
+-------------------------------------------------------------------------
+If npm and node.js is installed on computer, install create-react-app globally with the command below:
+    npm install –g create-react-app
+
+---------------------------------------------------------------------------------
+=>Creating a new application
+    Create React App provides multiple ways to create React application.
+
+    Using npx script.
+        npx create-react-app <react-app-name>
+        npx create-react-app hello-react-app  
+
+    Using npm package manager.
+        npm init react-app <react-app-name>
+        npm init react-app hello-react-app
+
+-----------------------------------------------------------------------------------
+
+
+=>Installing a dependency
+    React dependency package can be installed using normal npm or yarn package command as React uses the project structure recommended by npm and yarn.
+
+    Using npm package manager.
+        npm install --save react-router-dom
+
+
+-----------------------------------------------------------------------
+
+=>Running the application
+    React application can be started using npm or yarn command depending on the package manager used in the project.
+
+    Using npm package manager.
+        npm start
+
+    ->To run the application in secure mode (HTTPS), set an environment variable, HTTPS and set it to true before starting the application.
+        set HTTPS=true && npm start
