@@ -1,0 +1,54 @@
+Name: [Deprecated] Bracket Pair Colorizer 2
+Id: CoenraadS.bracket-pair-colorizer-2
+Description: A customizable extension for colorizing matching brackets
+Version: 0.2.4
+Publisher: CoenraadS
+
+Name: ES7+ React/Redux/React-Native snippets
+Id: dsznajder.es7-react-js-snippets
+Description: Extensions for React, React-Native and Redux in JS/TS with ES7+ syntax. Customizable. Built-in integration with prettier.
+Version: 4.4.3
+Publisher: dsznajder
+
+Name: HTML Snippets
+Id: abusaidm.html-snippets
+Description: Full HTML tags including HTML5 Snippets
+Version: 0.2.1
+Publisher: Mohamed Abusaid
+
+Name: Laravel Blade Snippets
+Id: onecentlin.laravel-blade
+Description: Laravel blade snippets and syntax highlight support
+Version: 1.32.0
+Publisher: Winnie Lin
+
+Name: Material Icon Theme
+Id: PKief.material-icon-theme
+Description: Material Design Icons for Visual Studio Code
+Version: 4.19.0
+Publisher: Philipp Kief
+
+
+Name: Prettier - Code formatter
+Id: esbenp.prettier-vscode
+Description: Code formatter using prettier
+Version: 9.5.0
+Publisher: Prettier
+
+Name: React Pure To Class
+Id: angryobject.react-pure-to-class-vscode
+Description: Convert pure react components to class components
+Version: 1.1.8
+Publisher: Max Shishkin
+
+Name: Typescript React code snippets
+Id: infeng.vscode-react-typescript
+Description: Code snippets for react in typescript
+Version: 1.3.1
+Publisher: infeng
+
+Name: Rainbow Brackets
+Id: 2gua.rainbow-brackets
+Description: A rainbow brackets extension for VS Code.
+Version: 0.0.6
+Publisher: 2gua
