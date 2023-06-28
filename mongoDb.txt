@@ -1,0 +1,15 @@
+db.complted.aggregate([ { 
+    $group: { 
+        _id: { couseId: "$couseId" }, 
+        totalPoint: { 
+            $sum: "$point" 
+        },
+        totalPercentage: { 
+            $sum: "$percentage" 
+        },
+        count:{$sum:1}
+    },
+    
+},
+{ $project: { couseId: 1, totalPoint: 1, totalPercentage:1, count: 1, avragePercentage: { $divide: [ "$totalPercentage", "$count" ] } } }
+] )
